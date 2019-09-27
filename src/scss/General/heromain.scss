@@ -1,0 +1,33 @@
+.Hero_main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    .Hero_img{
+        img {width:500px;}
+    }
+    .Hero_text{
+        width: 30%;
+        .heroTitle{
+            color: #262626;
+            font-size: 40px;
+        }
+        .herophContent{
+            color: #a1a1a1;
+            font-size: 12px;
+            line-height: 20px;
+            margin: 15px 0;
+
+        }
+        .heroButton{
+            border: 1px solid #84724C;
+            background: #fff;
+            color: #84724C;
+            padding: 5px 15px;
+            &:hover{
+                background-color: #f1f1f1;
+                cursor: pointer;
+            }
+        }
+    }
+}
